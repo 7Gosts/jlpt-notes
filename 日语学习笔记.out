@@ -27,7 +27,18 @@
       "children": [
         "ningyou",
         "annai",
-        "angai"
+        "angai",
+        "soft-drink",
+        "seiryo-inryosui",
+        "tokkyoken",
+        "zokuchi-shugi",
+        "koryoku-oyobu",
+        "souten",
+        "wazuka-bakari",
+        "enmei",
+        "igi",
+        "sei",
+        "shigamitsuku"
       ],
       "text": "词汇",
       "tags": [],
@@ -94,6 +105,127 @@
       "subtext": "案外簡単だった：没想到还挺简单",
       "images": []
     },
+    "soft-drink": {
+      "id": "soft-drink",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "ソフトドリンク：软饮料、非酒精饮料",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "来自英语 soft drink。菜单常见：ソフトドリンク飲み放題。",
+      "images": []
+    },
+    "seiryo-inryosui": {
+      "id": "seiryo-inryosui",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "清涼飲料水（せいりょういんりょうすい）：清凉饮料",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "较正式、书面或商品分类用语；日常更常说ソフトドリンク。",
+      "images": []
+    },
+    "tokkyoken": {
+      "id": "tokkyoken",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "特許権（とっきょけん）：专利权",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "法律语境中常和効力が及ぶ、侵害する、有効である搭配。",
+      "images": []
+    },
+    "zokuchi-shugi": {
+      "id": "zokuchi-shugi",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "属地主義（ぞくちしゅぎ）：属地主义",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "法律效力原则上只在本国领土范围内发生作用。",
+      "images": []
+    },
+    "koryoku-oyobu": {
+      "id": "koryoku-oyobu",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "効力が及ぶ（こうりょくがおよぶ）：效力及于、适用于",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "法律、规则、权利的效力覆盖到某对象。例：法律の効力は海外には及ばない。",
+      "images": []
+    },
+    "souten": {
+      "id": "souten",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "争点（そうてん）：争议焦点",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "争点になる：成为争议点、问题焦点。",
+      "images": []
+    },
+    "wazuka-bakari": {
+      "id": "wazuka-bakari",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "わずかばかり：仅仅一点点、少得可怜",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "わずか＋ばかり；不只是客观少，也可带轻视或否定评价。",
+      "images": []
+    },
+    "enmei": {
+      "id": "enmei",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "延命（えんめい）：延长生命、续命",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "常见搭配：延命治療（えんめいちりょう）：延命治疗。",
+      "images": []
+    },
+    "igi": {
+      "id": "igi",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "意義（いぎ）：意义、价值",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "意義がある：有意义、有价值。意義はあるのだろうか：真的有意义吗？",
+      "images": []
+    },
+    "sei": {
+      "id": "sei",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "生（せい）：生命、生存",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "加引号的「生」常指抽象、哲学意义上的生命或活着这件事。",
+      "images": []
+    },
+    "shigamitsuku": {
+      "id": "shigamitsuku",
+      "parentId": "vocabulary",
+      "children": [],
+      "text": "しがみつく：紧紧抓住、执着不放",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "可指物理上抓住，也可指心理执念。生にしがみつく：执着于活下去。",
+      "images": []
+    },
     "grammar": {
       "id": "grammar",
       "parentId": "jp-root",
@@ -105,7 +237,12 @@
         "younimieru",
         "kamoshirenai",
         "nanda",
-        "monode"
+        "monode",
+        "nomi",
+        "tosareru",
+        "kotokara",
+        "nokadouka",
+        "nodarouka"
       ],
       "text": "语法",
       "tags": [],
@@ -188,7 +325,7 @@
       "tags": [],
       "collapsed": false,
       "checked": null,
-      "subtext": "この想いは本気なんだ：这份心意是认真的",
+      "subtext": "この想いは本気なんだ：这份心意是认真的。なぜ～んだね：追问理由，带审视或质问语气。",
       "images": []
     },
     "monode": {
@@ -200,6 +337,61 @@
       "collapsed": false,
       "checked": null,
       "subtext": "口语形式：～もんで",
+      "images": []
+    },
+    "nomi": {
+      "id": "nomi",
+      "parentId": "grammar",
+      "children": [],
+      "text": "～のみ：仅、只",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "比だけ更书面、正式。日本国内でのみ有効：只在日本国内有效。",
+      "images": []
+    },
+    "tosareru": {
+      "id": "tosareru",
+      "parentId": "grammar",
+      "children": [],
+      "text": "～とされる：被认为是、被视为",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "常见于新闻、法律、论文。例：有効とされる：被认为有效。",
+      "images": []
+    },
+    "kotokara": {
+      "id": "kotokara",
+      "parentId": "grammar",
+      "children": [],
+      "text": "～ことから：由于、基于……",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "书面说明原因或判断依据。例：サーバーがアメリカにあることから。",
+      "images": []
+    },
+    "nokadouka": {
+      "id": "nokadouka",
+      "parentId": "grammar",
+      "children": [],
+      "text": "～のかどうか：是否……",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "把疑问内容名词化。効力が及ぶのかどうか：效力是否及于。",
+      "images": []
+    },
+    "nodarouka": {
+      "id": "nodarouka",
+      "parentId": "grammar",
+      "children": [],
+      "text": "～のだろうか：究竟是否……呢",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "带沉思、怀疑或反问感。意義はあるのだろうか：真的有意义吗？",
       "images": []
     },
     "conjugation": {
@@ -282,7 +474,9 @@
         "sentence-value",
         "sentence-human-value",
         "sentence-neighborhood",
-        "sentence-research"
+        "sentence-research",
+        "sentence-patent-fc2",
+        "sentence-enmei-sei"
       ],
       "text": "句子解析",
       "tags": [],
@@ -333,6 +527,28 @@
       "collapsed": false,
       "checked": null,
       "subtext": "表现得像在开玩笑，但这份感情是认真的。",
+      "images": []
+    },
+    "sentence-patent-fc2": {
+      "id": "sentence-patent-fc2",
+      "parentId": "sentences",
+      "children": [],
+      "text": "特許権は、日本国内でのみ有効とされる「属地主義」がとられ、FC2のサーバーがアメリカにあることから、効力が及ぶのかどうかが争点になりました。",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "假名：とっきょけんは、にほんこくないでのみゆうこうとされる「ぞくちしゅぎ」がとられ、エフシーツーのサーバーがアメリカにあることから、こうりょくがおよぶのかどうかがそうてんになりました。译：专利权采取只在日本国内有效的属地主义；因FC2服务器在美国，效力是否适用成为争议焦点。重点：～でのみ、～とされる、～ことから、～のかどうか、効力が及ぶ。",
+      "images": []
+    },
+    "sentence-enmei-sei": {
+      "id": "sentence-enmei-sei",
+      "parentId": "sentences",
+      "children": [],
+      "text": "わずかばかりの延命に、意義はあるのだろうか。君はなぜ、そんなわずかばかりの「生」にしがみつくんだね？",
+      "tags": [],
+      "collapsed": false,
+      "checked": null,
+      "subtext": "假名：わずかばかりのえんめいに、いぎはあるのだろうか。きみはなぜ、そんなわずかばかりの「せい」にしがみつくんだね？译：仅仅多延续那么一点生命，真的有意义吗？你为什么要执着于那样微不足道的一点「生」呢？重点：わずかばかり带轻视感；～のだろうか有怀疑反问；なぜ～んだね追问理由。",
       "images": []
     },
     "culture": {
