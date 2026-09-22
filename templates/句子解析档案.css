@@ -1,0 +1,28 @@
+:root { color-scheme: light dark; }
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 28px 20px 56px;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: light-dark(#202124, #e8eaed);
+  background: light-dark(#fff, #1b1b1b);
+}
+h1 { margin: 0; }
+h2 { margin: 0; font-size: 1.2rem; }
+h3 { margin: 20px 0 5px; font-size: 0.96rem; }
+nav { margin: 16px 0 20px; }
+nav a { margin-right: 16px; }
+a { color: light-dark(#1558b0, #8ab4f8); }
+article { border-top: 1px solid light-dark(#dadce0, #444746); padding: 24px 0 28px; }
+.entry-heading { display: flex; align-items: baseline; gap: 10px; }
+.entry-number { color: light-dark(#5f6368, #aeb4bc); font-size: 0.9rem; font-weight: 600; }
+.sentence { font-size: 1.1rem; margin: 14px 0 10px; line-height: 1.85; }
+ruby { ruby-align: center; }
+rt { color: light-dark(#5f6368, #aeb4bc); font-size: 0.62em; }
+.translation { margin: 0; font-size: 1rem; }
+code { padding: 0.1em 0.3em; border-radius: 3px; background: light-dark(#f1f3f4, #303134); }
+.compact { margin: 0; padding-left: 1.3em; }
+.compact li { margin: 4px 0; }
+.nuance { margin: 8px 0 0; }

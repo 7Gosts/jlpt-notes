@@ -1,0 +1,32 @@
+<style>
+  #japanese-furigana {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1em 0;
+    padding: 0.75em 0;
+    color: var(--foreground);
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+    letter-spacing: 0;
+  }
+  #japanese-furigana .phrase {
+    display: inline-flex;
+    align-items: flex-end;
+    white-space: nowrap;
+  }
+  #japanese-furigana .annotated-word {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+</style>
+<div id="japanese-furigana" lang="ja" role="group" aria-label="ふりがな付きの文章">
+  <span class="phrase">「ネズミはいるかな、</span>
+  <span class="phrase">
+    <span class="annotated-word"><span class="text-small text-muted" aria-hidden="true">きょう</span><span>今日</span></span><span>はどうやらお</span><span class="annotated-word"><span class="text-small text-muted" aria-hidden="true">るす</span><span>留守</span></span><span>のようだ。</span>
+  </span>
+  <span class="phrase">どーれ、</span>
+  <span class="phrase">ここで</span>
+  <span class="phrase"><span class="annotated-word"><span class="text-small text-muted" aria-hidden="true">だんご</span><span>団子</span></span><span>を</span></span>
+  <span class="phrase"><span class="annotated-word"><span class="text-small text-muted" aria-hidden="true">た</span><span>食</span></span><span>べるとしよう。」</span></span>
+</div>
